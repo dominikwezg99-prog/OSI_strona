@@ -1,0 +1,57 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+header {
+    background: #32b695;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul { list-style: none; display: flex; }
+nav ul li { margin-left: 20px; }
+nav ul li a { color: #fff; text-decoration: none; }
+
+.hero {
+    background: #302929;
+    background-image: url('https://cdn.wiadomosci.onet.pl/1/I33k9lMaHR0cDovL29jZG4uZXUvaW1hZ2VzL3B1bHNjbXMvWlRJN01EQV8vNTk4MzIyNWQ0ZjRlMzM3OGEyNGM0ZDZlZjM0YWE0YjkuanBlZ5KVAwAUzQPozQIzkwXNCWDNBOzeAAKhMAehMQQ');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-shadow: 
+        2px 2px 4px rgba(0, 0, 0, 0.6),
+        -2px -2px 4px rgba(0, 0, 0, 0.6),
+        2px -2px 4px rgba(0, 0, 0, 0.6),
+        -2px 2px 4px rgba(0, 0, 0, 0.6);
+    padding: 80px 20px;
+    text-align: center;
+}
+.hero h2 { font-size: 32px; margin-bottom: 20px; }
+
+.about, .services, .blog, .portfolio, .contact {
+    padding: 40px 20px;
+}
+
+.services .service, .blog article, .portfolio .project {
+    border: 1px solid #eee;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 6px;
+}
+
+img { width: 400px; height: auto; display: block; border-radius: 6px; }
+
+form input, form textarea, form button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+footer {
+    background: #111;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
